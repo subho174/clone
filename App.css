@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  padding: 0.75rem 2.5rem;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: rgba(252, 245, 235, 0.8);
+  z-index: 2;
+}
+.showBorder {
+  border-bottom: 1px solid #cec9c1;
+}
+.lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  font-weight: 500;
+}
+nav a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shortNav {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+ul li a:hover {
+  color: black;
+}
+.btn-secn {
+  display: flex;
+  gap: 0.75rem;
+}
+button {
+  border: 1px solid black;
+  outline: none;
+  background-color: #fff;
+  border-radius: 5rem;
+  padding: 1rem 1.75rem;
+  font-size: 1.025rem;
+  display: flex;
+  cursor: pointer;
+}
+button p {
+  margin: 0;
+}
+.message button i {
+  position: relative;
+  top: 0.5vh;
+}
+.message button p {
+  color: black;
+  font-size: 1rem;
+}
+i {
+  margin-left: 0.5rem;
+}
+.download {
+  background-color: #25d366;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcf5eb;
+  z-index: 2.5;
+}
+.dropdown {
+  z-index: 3;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
+}
+.header i {
+  font-size: 1.5rem;
+}
+.option li {
+  padding: 0.75rem 1.5rem;
+  border-top: 1px solid rgba(17, 27, 33, 0.2);
+}
+.option li a {
+  font-size: 2rem;
+  font-weight: 480;
+}
+.content {
+  height: 105vh;
+  width: 95vw;
+  margin-top: 2rem;
+  padding: 0 13.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/public/whatsapp.png");
+  background-position: center;
+}
+.content .btn-secn {
+  width: 25vw;
+  margin-top: 4rem;
+}
+.message {
+  margin: 10rem 0;
+  width: 20vw;
+  line-height: 1;
+}
+.message p {
+  font-size: 5rem;
+  color: #fff;
+}
+.photo {
+  width: 50vw;
+  position: absolute;
+  right: 0;
+  padding-top: 5rem;
+  padding-left: 6rem;
+}
+#heart,
+#voice,
+#image {
+  position: relative;
+  top: -2rem;
+}
+#cup,
+#emoji,
+#text {
+  position: relative;
+  top: -4rem;
+}
+p {
+  margin-bottom: 1rem;
+}
+.photo img {
+  width: 27rem;
+}
+.text p {
+  position: absolute;
+  right: 0;
+  margin-top: 2vh;
+  margin-right: 2vw;
+  font-size: 0.75rem;
+}
+.hello {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+}
+.hello img {
+  width: 95%;
+}
+.text2 {
+  padding: 1rem 20rem;
+  text-align: center;
+  font-weight: 450;
+  font-size: 3.5rem;
+}
+.section1,
+.section2 {
+  padding: 0 15rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.section1 div,
+.section2 div {
+  width: 42.5%;
+  display: flex;
+  gap: 0.75rem;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.05rem;
+  cursor: pointer;
+  outline: none;
+}
+a p {
+  margin: 0;
+  border-bottom: 2px solid #25d366;
+}
+a:hover {
+  color: #25d366;
+}
+#section1_p {
+  font-size: 3.8rem;
+  line-height: 1.05;
+}
+#callGuide {
+  font-size: 1.25rem;
+}
+.section2 {
+  background-color: #111b21;
+  padding-bottom: 6rem;
+}
+.text4 a {
+  color: #fff;
+}
+.chatphoto {
+  margin-top: 5rem;
+}
+#photo1 {
+  position: relative;
+  top: 13rem;
+  z-index: 1;
+}
+#photo2 {
+  position: relative;
+  top: -27rem;
+  z-index: 0.5;
+  height: 85vh;
+}
+#photo4 {
+  position: relative;
+  top: -30rem;
+  z-index: 0.5;
+}
+#photo3 {
+  position: relative;
+  top: -3rem;
+  left: 2rem;
+  z-index: 1;
+  height: 30vh;
+}
+.Guide-Section {
+  background-color: #e6ffda;
+  display: flex;
+  justify-content: space-between;
+  padding: 8.5rem 4rem;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 75%;
+  gap: 2vw;
+}
+.box {
+  padding: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  width: 20vw;
+  height: 60vh;
+}
+.icon {
+  font-size: 1.5rem;
+}
+.heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.UpToDate {
+  width: 20%;
+}
+.guide {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+footer {
+  background-color: #111b21;
+  color: #fff;
+  padding: 8rem 16rem;
+  padding-bottom: 0;
+}
+footer a {
+  color: #fff;
+}
+.part1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #33463f;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.about a {
+  font-size: 1.15rem;
+}
+.part2 {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  width: 24vw;
+}
+.copyright div,
+.copyright a {
+  width: 6.5vw;
+  font-size: 0.75rem;
+}
+.logos {
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+}
+.logos a {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part1 a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.logos i {
+  margin-left: 0;
+}
+select {
+  font-size: 1rem;
+  padding: 1rem 1.7rem;
+  border: 2px solid #fff;
+  border-radius: 3rem;
+  background-color: #111b21;
+  color: #fff;
+}
+i {
+  cursor: pointer;
+}
+.section1 a,
+.section2 a {
+  display: flex;
+  align-items: center;
+}
+.part1 button {
+  display: flex;
+  justify-content: center;
+}
+.about-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 3vw;
+}
+
+@media (width < 1200px) {
+  .content {
+    height: 80vh;
+    width: 95vw;
+  }
+  .photo {
+    right: 16rem;
+  }
+  .photo img {
+    width: 21rem;
+  }
+  #voice,
+  #image,
+  #emoji,
+  #text {
+    display: none;
+  }
+  #heart {
+    top: -1.5rem;
+  }
+  .message {
+    position: relative;
+    right: 10rem;
+    margin-top: 12rem;
+  }
+  .message p {
+    font-size: 2rem;
+  }
+  .m {
+    width: 80vw;
+    line-height: 1.5;
+  }
+  .logIn {
+    display: none;
+  }
+  .text2 {
+    padding: 1rem;
+    font-weight: 490;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .section1 {
+    display: block;
+  }
+  .section1 div,
+  .section2 div {
+    width: auto;
+  }
+  #section1_p {
+    font-size: 2rem;
+  }
+  .section2,
+  .section1 {
+    flex-direction: column;
+    padding: 5rem 2.5rem;
+    height: 70rem;
+    margin-bottom: 5vh;
+  }
+  .text4,
+  .text3 {
+    position: absolute;
+    left: 1.5rem;
+  }
+  .chatphoto,
+  .twoPhoto {
+    position: relative;
+    top: 15rem;
+  }
+  .videoPhoto {
+    position: relative;
+    top: 20rem;
+  }
+  .Photo {
+    position: relative;
+    top: 20rem;
+  }
+  .Guide-Section {
+    padding: 2rem;
+    display: block;
+  }
+  .UpToDate,
+  .boxes,
+  .box {
+    width: auto;
+  }
+  .boxes {
+    gap: 5vh;
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  .logo {
+    padding: 0 5rem;
+  }
+  .part1 {
+    flex-direction: column;
+    gap: 5vh;
+  }
+  .about-section {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  .part2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+  }
+  .logos {
+    padding-top: 1rem;
+  }
+  .about-section {
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+}
+@media (width <= 500px) {
+  nav {
+    padding: 0.75rem 1rem;
+  }
+  /* .part1 {
+    padding-bottom: 1rem;
+  } */
+  .copyright {
+    width: 48vw;
+  }
+  .copyright div {
+    width: 20vw;
+  }
+}
+
+@media ((width > 750px) and (width < 1200px)) {
+  .text4 {
+    position: absolute;
+    left: 7.5rem;
+  }
+  .logo {
+    padding: 0 15rem;
+  }
+  .box {
+    height: 25vh;
+  }
+}
+@media ((width > 750px) and (width < 1200px) and (height < 750px)) {
+  .box {
+    height: 50vh;
+  }
+}
+@media (width < 350px) {
+  .about-section {
+    gap: 0.1rem;
+  }
+}
+@media ((width > 900px) and (width < 1200px)) {
+  .text4 {
+    position: absolute;
+    left: 13rem;
+  }
+}
